@@ -76,5 +76,11 @@
 		font-size: 18px;
 		background-color: var(--yellow-color);
 		transform: translate(-50%, 0);
+		transition: 0.3s;
 	}
+}
+
+.constructions__btn:hover {
+	color: var(--light-color);
+	background-color: var(--yellow-dark);
 }

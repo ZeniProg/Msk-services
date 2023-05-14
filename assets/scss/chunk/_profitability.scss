@@ -83,5 +83,10 @@
 
 	&__item-link {
 		color: var(--yellow-color);
+		transition: 0.2s;
 	}
+}
+
+.profitability__item-link:hover {
+	color: var(--yellow-dark);
 }

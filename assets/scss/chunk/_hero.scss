@@ -61,6 +61,7 @@
 		font-size: 20px;
 		text-align: center;
 		background-color: var(--yellow-color);
+		transition: 0.4s;
 	}
 
 	&__text {
@@ -73,9 +74,19 @@
 
 	&__link {
 		color: var(--yellow-color);
+		transition: 0.2s;
 	}
 }
 
 .hero__block:last-child {
 	margin: 0;
+}
+
+.hero__btn:hover {
+	color: var(--light-color);
+	background-color: var(--yellow-dark);
+}
+
+.hero__link:hover {
+	color: var(--yellow-dark);
 }

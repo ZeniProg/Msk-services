@@ -42,9 +42,14 @@
 
 	&__text-link {
 		color: var(--yellow-color);
+		transition: 0.2s;
 	}
 }
 
 .сities__list-item:last-child {
 	margin: 0;
+}
+
+.cities__text-link:hover {
+	color: var(--yellow-dark);
 }
