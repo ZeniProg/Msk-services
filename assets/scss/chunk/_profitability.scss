@@ -1,0 +1,87 @@
+.profitability {
+	margin-bottom: 220px;
+
+	&__title {
+		margin: 0;
+		margin-bottom: 240px;
+		font-family: sans-serif;
+		font-weight: 500;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	&__title-yellow {
+		color: var(--yellow-color);
+	}
+
+	&__blocks {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 160px;
+	}
+
+	&__block {
+		position: relative;
+		border-top: 5px solid var(--yellow-dark);
+		border-radius: 0 0 15px 15px;
+		padding: 120px 30px 50px;
+		max-width: 545px;
+		background-color: var(--gainsborough-color);
+	}
+
+	&__block-img {
+		position: absolute;
+		left: 140px;
+		top: -90px;
+	}
+
+	&__img {
+		width: 254px;
+		height: auto;
+	}
+
+	&__block-title {
+		margin: 0;
+		margin-bottom: 15px;
+		font-family: sans-serif;
+		font-weight: 700;
+		font-size: 32px;
+		text-align: center;
+	}
+
+	&__block-text {
+		margin: 0;
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	&__wrap-list {
+		max-width: 1340px;
+	}
+
+	&__text {
+		margin: 0;
+		margin-bottom: 45px;
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	&__list {
+		margin: 0;
+		margin-left: 35px;
+		padding: 0;
+	}
+
+	&__list-item {
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	&__item-link {
+		color: var(--yellow-color);
+	}
+}
